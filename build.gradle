@@ -1,3 +1,4 @@
+defaultTasks 'jar'
 apply plugin: 'java'
 
 jar {
@@ -9,9 +10,12 @@ jar {
 }
 
 dependencies {
-	
+	compile name:'resources'
 }
 
 repositories {
 	mavenCentral()
+	flatDir {
+       		dirs 'lib'
+   	}	
 }

@@ -43,9 +43,9 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  String toReturn = new String();
-		for (int i = input.length() - 1; i >= 0; i++) {
-			  toReturn += input.charAt(3);
+		for (int i = input.length() - 1; i >= 0; i--) {
+			  toReturn += input.charAt(i);
 		}
-	  return input;
+	  return toReturn;
 	}
 }
