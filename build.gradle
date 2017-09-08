@@ -17,5 +17,5 @@ repositories {
 	mavenCentral()
 	flatDir {
        		dirs 'lib'
-   	}	
+   	}
 }
