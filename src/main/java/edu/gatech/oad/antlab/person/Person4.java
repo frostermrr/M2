@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Bob
+ *  @author Manuel Rojas-Romero
  *  @version 1.1
  */
 public class Person4 {
