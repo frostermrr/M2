@@ -1,6 +1,6 @@
 
 Brandon Seal
-
+bseal@gatech.edu
 
 
 
