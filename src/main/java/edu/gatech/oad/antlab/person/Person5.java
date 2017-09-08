@@ -31,7 +31,15 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-	  return input;
+        int strLength = input.length();
+        if (strLength <= 2){
+            return input;
+        } else{
+            String first = input.substring(0, strLength - 3) ;
+            String second = input.subtring(strLength - 2, strLength - 1);
+            String newName = second.concat(first);
+            return newName;
+        }
 	}
 	
 	/**
