@@ -36,7 +36,7 @@ public class Person5 {
             return input;
         } else{
             String first = input.substring(0, strLength - 3) ;
-            String second = input.subtring(strLength - 2, strLength - 1);
+            String second = input.substring(strLength - 2, strLength - 1);
             String newName = second.concat(first);
             return newName;
         }
